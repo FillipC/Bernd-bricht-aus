@@ -1,0 +1,15 @@
+1.Beliebige Gegstände anschauen:
+Gegenstand anklicken
+(Tipp: Lies sorgfältig und in Ruhe, was Bernd dir zu sagen hat)
+
+2.Gegenstände nehmen 
+Button "Nehmen" anklicken->Gegenstand durch anklicken auswählen 
+--> Gegenstand taucht im Itemslot auf
+(Tipp: Nicht alle Gegenstände kann man nehmen!)
+
+3. Gegenstände aus Itemslot benutzen
+Button "Benutzen" anklicken-> Gegenstand aus Itemslot auswählen-> Gegenstand wählen, wo Item benutzt werden soll
+
+4. Gegenstände bewegen
+Button "Nehmen" anklicken-> Gegenstand im Spiel durch anklicken auswählen-> Zu bewegenden Gegenstand anklicken (wo der Gegenstand hin soll)
+(Tipp: Es lassen sich einige Gegenstände im Spiel bewegen/umstellen)

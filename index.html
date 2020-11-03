@@ -1,0 +1,274 @@
+<HMTL id=htmlDatei>
+
+    <Head>
+            <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="style.css">
+         <title>
+            Bernd bricht aus!
+        </title>
+
+        <meta charset="utf-8">
+
+        <!--Audio elemente-->
+        <audio loop id="radio">
+            <source src="Audio\song.mp3" type="audio/mpeg">
+        Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+        
+        <audio id="KlavierSong">
+            <source src="Audio/KlavierSound.mp3" type="audio/mp3">
+        </audio>
+
+        <audio loop id="BackgroudSound">
+            <source src="Audio\Background.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+        <!--
+        <audio id="SprechblaseBernddasbrot1Sound">
+            <source src="Audio\SprechblaseBernddasbrot.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseBernddasbrot2Sound">
+            <source src="Audio\SprechblaseBernddasbrot.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseBettSound">
+            <source src="Audio\SprechblaseBett.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseBildSound">
+            <source src="Audio\SprechblaseBild.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseHockerSound">
+            <source src="Audio\SprechblaseHocker.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseKleiderhakenSound">
+            <source src="Audio\SprechblaseKleiderhaken.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblasePapierkorbSound">
+            <source src="Audio\SprechblasePapierkorb.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblasePflanzeSound">
+            <source src="Audio\SprechblasePflanze.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblasePulloverSound">
+            <source src="Audio\SprechblasePullover.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseSekiroSound">
+            <source src="Audio\SprechblaseSekiro.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseShirtsSound">
+            <source src="Audio\SprechblaseShirts.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseTruheSound">
+            <source src="Audio\SprechblaseTruhe.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseUhrSound">
+            <source src="Audio\SprechblaseUhr.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+
+        <audio id="SprechblaseUrkundeSound">
+            <source src="Audio\SprechblaseUrkunde.mp3" type="audio/mp3">
+            Audio-Format in diesem Browser nicht verfügbar.
+        </audio>
+        -->
+
+        <script src="main.js" type="text/javascript"></script>
+        
+    </Head>
+
+
+    <Body>
+        <img id="kidposition"  src="kiddo_bilder/kid_front.png">
+        <img id="Sprechblase_Ende"  src="letzte_blase/Frei!.png">
+        <div id=buttons class="divs">
+                <img id="bildButtons" src="Buttonslot.png">
+                <button id="knopfBenutzen" class="spielfeld" type="button"  onclick=Benutzen()> </button>
+                <button id="knopfLauter" class="spielfeld" type="button"  onclick=Lauter()> </button>
+                <button id="knopfLeiser" class="spielfeld" type="button"  onclick=Leiser()> </button>
+                <button id="knopfNehmen" class="spielfeld" type="button" onclick=Take()> </button>
+        </div>
+        
+
+
+        <div id=startBild ><button type="button" id="startknopf" onclick=startGame1()><img id="intro" src="Intro(test).png"></img></button>
+        </div>
+        <div id=bild class="divs"> 
+            <img id="bildIconSchreibtisch" src="Icons\IconSchreibtisch.png"></img> 
+            <img id="bildIconBett" src="Icons\IconBett.png"></img> 
+            <img id="bildIconSchublade" src="Icons\IconSchublade.png"></img> 
+            <img id="bildIconBild" src="Icons\IconBild.png"></img> 
+            <img id="bildIconSekiro" src="Icons\IconSekiro.png"></img> 
+            <img id="bildIconFussball" src="Icons\IconFussball.png"></img> 
+            <img id="bildIconShirt" src="Icons\IconShirt.png"></img> 
+            <img id="bildIconGardine" src="Icons\IconGardine.png"></img> 
+            <img id="bildIconTruhe" src="Icons\IconTruhe.png"></img> 
+            <img id="bildIconHocker" src="Icons\IconHocker.png"></img> 
+            <img id="bildIconTuer" src="Icons\IconTuer.png"></img> 
+            <img id="bildIconKleiderhaken" src="Icons\IconKleiderhaken.png"></img> 
+            <img id="bildIconUhr" src="Icons\IconUhr.png"></img> 
+            <img id="bildIconPapa" src="Icons\IconPapa.png"></img> 
+            <img id="bildIconUrkunde" src="Icons\IconUrkunde.png"></img> 
+            <img id="bildIconPapierkorb" src="Icons\IconPapierkorb.png"></img> 
+            <img id="bildIconPflanze" src="Icons\IconPflanze.png"></img> 
+            <img id="bildIconPullover" src="Icons\IconPullover.png"></img> 
+            <img id="bildIconRadio" src="Icons\IconRadio.png"></img> 
+            <img id="bildIconSchluessel" src="Icons\IconSchluessel.png"></img> 
+            <!-- Icons für den Flur-->
+            <img id="bildIconKlavier" src="Schriftart(obenLinksImGame)\IconKlavier.png"></img> 
+            <img id="bildIconBlumeFlur" src="Schriftart(obenLinksImGame)\IconBlumeFlur.png"></img> 
+            <img id="bildIconKleiderhakenFlur" src="Schriftart(obenLinksImGame)\IconKleiderhakenFlur.png"></img> 
+            <img id="bildIconVitrine" src="Schriftart(obenLinksImGame)\IconVitrine.png"></img> 
+            <img id="bildIconTuerBernd" src="Schriftart(obenLinksImGame)\IconTuerBernd.png"></img> 
+            <img id="bildIconTuerWC" src="Schriftart(obenLinksImGame)\IconTuerWC.png"></img> 
+            <img id="bildIconTuerStube" src="Schriftart(obenLinksImGame)\IconTuerStube.png"></img> 
+            <img id="bildIconTuerKueche" src="Schriftart(obenLinksImGame)\IconTuerKueche.png"></img> 
+            <img id="bildIconHausTuer" src="Schriftart(obenLinksImGame)\IconHausTuer.png"></img> 
+            <!-- ende Icons für den Flur-->
+            <!-- Icons für das WC-->
+            <img id="bildIconPflanzeWC" src="Schriftart(Badezimmer)/bildIconPflanzeWC.png"></img>
+            <img id="bildIconDusche" src="Schriftart(Badezimmer)/bildIconDusche.png"></img> 
+            <img id="bildIconKlopapier" src="Schriftart(Badezimmer)/bildIconKlopapier.png"></img> 
+            <img id="bildIconToilette" src="Schriftart(Badezimmer)/bildIconToilette.png"></img> 
+            <img id="bildIconBernddasBrot3" src="Schriftart(Badezimmer)/bildIconBernddasBrot3.png"></img> 
+            <img id="bildIconHandspiegel" src="Schriftart(Badezimmer)/bildIconHandspiegel.png"></img> 
+            <img id="bildIconSchrankWC1" src="Schriftart(Badezimmer)/bildIconSchrankWC.png"></img> 
+            <img id="bildIconSpiegelWC1" src="Schriftart(Badezimmer)/bildIconSpiegelWC.png"></img> 
+            <img id="bildIconWaeschekorb" src="Schriftart(Badezimmer)/bildIconWaeschekorb.png"></img> 
+            <img id="bildIconFlurTuer" src="Schriftart(Badezimmer)/bildIconFlurTuer.png"></img> 
+            <img id="bildIconHandtuch" src="Schriftart(Badezimmer)/bildIconHandtuch.png"></img> 
+            <!-- Ende Icons für das WC-->
+            <!-- Icons für die Küche-->
+            <img id="bildIconsKasten" src="Schriftart(Küche)/bildIconsKasten.png"></img>
+            <img id="bildIconkFlurTuer" src="Schriftart(Küche)/bildIconkFlurTuer.png"></img> 
+            <img id="bildIconKuehlschrank" src="Schriftart(Küche)/bildIconKuehlschrank.png"></img> 
+            <img id="bildIconWasch" src="Schriftart(Küche)/bildIconWasch.png"></img> 
+            <img id="bildIconSpuehl" src="Schriftart(Küche)/bildIconSpuehl.png"></img> 
+            <img id="bildIconkSchrank" src="Schriftart(Küche)/bildIconkSchrank.png"></img> 
+            <img id="bildIconPfanne" src="Schriftart(Küche)/bildIconPfanne.png"></img> 
+            <img id="bildIconKaffee" src="Schriftart(Küche)/bildIconKaffee.png"></img> 
+            <img id="bildIconBoard" src="Schriftart(Küche)/bildIconBoard.png"></img> 
+            <img id="bildIconkTisch" src="Schriftart(Küche)/bildIconkTisch.png"></img> 
+            <img id="bildIconkStuhl" src="Schriftart(Küche)/bildIconkStuhl.png"></img> 
+            <!-- ende Icons für die Küche-->
+
+
+            <img id="bild1" src="Zimmer1_RadioAus.png" widht="950" height="650"></img>
+
+                <img id="SprechblaseNope_Tisch" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+                <img id="SprechblaseNope_Bett" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+                <img id="SprechblaseNope_Tuer" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+                <img id="SprechblaseNope_AufTisch" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+                <img id="SprechblaseNope_Bild" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+                <img id="SprechblaseNope_Pflanze" src="Sprechblasen\Sprechblase3_SchlüsselmitanderenGegenständen(benutzen).png"></img>
+
+                <button id="knopfEinleitung" class="spielfeld" type="button"  onclick=startGame2()> </button>
+                <button id="knopfRadio" onmouseover="plopradio1()" onmouseout="plopradio0()" class="spielfeld" type="button"  onclick=tausch();nice()> </button>
+                <button id="knopfSekiro" onmouseover="plopsekiro1()" onmouseout="plopsekiro0()" class="spielfeld" type="button"  onclick=sekiro()><img id="Sprechblase1_Sekiro"  src="Sprechblasen\Sprechblase1_Sekiro.png"></button>
+                <button id="knopfSchublade" onmouseover="plopSchublade1()" onmouseout="plopSchublade0()" class="spielfeld" type="button"  onclick=Schublade()><img id="Sprechblase1_Schublade"  src="Sprechblasen\Sprechblase1_Schublade+1.schlüssel.png"></button>
+                <button id="knopfUrkunde" onmouseover="plopUrkunde1()" onmouseout="plopUrkunde0()" class="spielfeld" type="button"  onclick=Urkunde()><img id="Sprechblase1_Urkunde"  src="Sprechblasen\Sprechblase1_Urkunde.png"></button>
+                <button id="knopfFussball" onmouseover="plopFussball1()" onmouseout="plopFussball0()" class="spielfeld" type="button"  onclick=Fussball()><img id="SprechblaseFussball"  src="Sprechblasen\SprechblaseFussball.png"></button>
+                <button id="knopfTruhe" onmouseover="plopTruhe1()" onmouseout="plopTruhe0()" class="spielfeld" type="button"  onclick=Truhe()><img id="Sprechblase1_Truhe"  src="Sprechblasen\Sprechblase1_Truhe.png"></button>
+                <button id="knopfSchreibtisch" onmouseover="plopSchreibtisch1()" onmouseout="plopSchreibtisch0()" class="spielfeld" type="button"  onclick=Schreibtisch()><img id="Sprechblase1_Schreibtisch"  src="Sprechblasen\Sprechblase1_Schreibtisch_schublade.png"><img id="Sprechblase_SchreibtischSchluessel1"  src="Sprechblasen\Sprechblase2_SchlüsselmitSchreibtisch(benutzen)png.png"></button>
+                <button id="knopfWandbild" onmouseover="plopWandbild1()" onmouseout="plopWandbild0()" class="spielfeld" type="button"  onclick=Wandbild()><img id="Sprechblase1_Bild"  src="Sprechblasen\Sprechblase1_Bild.png"></button>
+                <button id="knopfPflanze" onmouseover="plopPflanze1()" onmouseout="plopPflanze0()" class="spielfeld" type="button"  onclick=Pflanze()><img id="Sprechblase1_Pflanze"  src="Sprechblasen\Sprechblase1_Pflanze.png"></button>
+                <button id="knopfHocker" onmouseover="plopHocker1()" onmouseout="plopHocker0()" class="spielfeld" type="button"  onclick=Hocker()><img id="Sprechblase1_Hocker"  src="Sprechblasen\Sprechblase1_Hocker.png"><img id="Sprechblase2_Hockerbenutzen"  src="Sprechblasen\Sprechblase2_Hocker(benutzen).png"></button>
+                <button id="knopfSteckdose" onmouseover="plopSteckdose1()" onmouseout="plopSteckdose0()" class="spielfeld" type="button"  onclick=Steckdose()> </button>
+                <button id="knopfBdasBrot1" onmouseover="plopBdasBrot11()" onmouseout="plopBdasBrot10()" class="spielfeld" type="button"  onclick=BdasBrot1()><img id="Sprechblase1_Bernddasbrot1" src="Sprechblasen\Sprechblase1_Bernddasbrot(kuscheltier).png"></button>
+                <button id="knopfKleiderhaken" onmouseover="plopKleiderhaken1()" onmouseout="plopKleiderhaken0()" class="spielfeld" type="button"  onclick=Kleiderhaken()><img id="Sprechblase1_Kleiderhaken"  src="Sprechblasen\Sprechblase1_Kleiderhaken.png"></button>
+                <button id="knopfMuelleimer" onmouseover="plopMuelleimer1()" onmouseout="plopMuelleimer0()" class="spielfeld" type="button"  onclick=Muelleimer()><img id="Sprechblase1_Papierkorb"  src="Sprechblasen\Sprechblase1_Papierkorb.png"></button>
+                <button id="knopfBett" onmouseover="plopBett1()" onmouseout="plopBett0()" class="spielfeld" type="button"  onclick=Bett()><img id="Sprechblase1_Bett" src="Sprechblasen\Sprechblase1_Bett.png"></button>
+                <button id="knopfTuer" onmouseover="plopTuer1()" onmouseout="plopTuer0()" class="spielfeld" type="button"  onclick=Tuer()><img id="Sprechblase1_Tuer"  src="Sprechblasen\Sprechblase1_Tür.png"><img id="Sprechblase2_Tuer"  src="Sprechblasen\Sprechblase2_2.SchlüsselmitTür(benutzen).png"></button>
+                <button id="knopfShirt1" onmouseover="plopShirt11()" onmouseout="plopShirt10()" class="spielfeld" type="button"  onclick=Shirt1()><img id="Sprechblase1_Shirt1"  src="Sprechblasen\Sprechblase1_Pullover.png"></button>
+                <button id="knopfShirt2" onmouseover="plopShirt21()" onmouseout="plopShirt20()" class="spielfeld" type="button"  onclick=Shirt2()><img id="Sprechblase1_Shirt2"  src="Sprechblasen\Sprechblase1_Shirts.png"></button>
+                <button id="knopfShirt3" onmouseover="plopShirt31()" onmouseout="plopShirt30()" class="spielfeld" type="button"  onclick=Shirt3()><img id="Sprechblase1_Shirt3"  src="Sprechblasen\Sprechblase1_Shirts.png"></button>
+                <button id="knopfBdasBrot2" onmouseover="plopBdasBrot21()" onmouseout="plopBdasBrot20()" class="spielfeld" type="button"  onclick=BdasBrot2()><img id="Sprechblase1_Bernddasbrot2" src="Sprechblasen\Sprechblase1_Bernddasbrot(kuscheltier).png"></button>
+                <button id="knopfUhr" onmouseover="plopUhr1()" onmouseout="plopUhr0()" class="spielfeld" type="button"  onclick=Uhr()><img id="Sprechblase1_Uhr"  src="Sprechblasen\Sprechblase1_Uhr.png"></button>
+                <button id="knopfFenster" onmouseover="plopFenster1()" onmouseout="plopFenster0()" class="spielfeld" type="button"  onclick=Fenster()><img id="Sprechblase1_Gardine"  src="Sprechblasen\Sprechblase1_Gardine.png"><img id="Sprechblase2_Gardinenehmen1"  src="Sprechblasen\Sprechblase2_Gardine(1st).png"><img id="Sprechblase2_Gardinenehmen2"  src="Sprechblasen\Sprechblase2_Gardine(2nd).png"></button>
+                <button id="knopfSchluessel2" onmouseover="plopSchluessel21()" onmouseout="plopSchluessel20()" class="spielfeld" type="button"  onclick=Schluessel2()><img id="Sprechblase2_Schluessel2"  src="Sprechblasen\Sprechblase2_2.Schlüssel(nehmen).png"></img></button>
+                <!-- Die Buttons im Flur -->
+                <button id="knopfKlavier" onmouseover="plopKlavier1()" onmouseout="plopKlavier0()" class="spielfeld" type="button" onclick="Klavier()"><img id="Sprechblase_Klavier"  src="Sprechblasen(Flur)\Klavier.png"></button>
+                <button id="knopfBlumeFlur" onmouseover="plopBlumeFlur1()" onmouseout="plopBlumeFlur0()" class="spielfeld" type="button" onclick="BlumeFlur()"><img id="Sprechblase_BlumeFlur"  src="Sprechblasen(Flur)\Pflanze.png"></button>
+                <button id="knopfKleiderhakenFlur" onmouseover="plopKleiderhakenFlur1()" onmouseout="plopKleiderhakenFlur0()" class="spielfeld" type="button" onclick="KleiderhakenFlur()"><img id="Sprechblase_KleiderhakenFlur"  src="Sprechblasen(Flur)\Kleiderhaken.png"></button>
+                <button id="knopfVitrine" onmouseover="plopVitrine1()" onmouseout="plopVitrine0()" class="spielfeld" type="button" onclick="Vitrine()"><img id="Sprechblase_Vitrine"  src="Sprechblasen(Flur)\Vitrine.png"></button>
+                <button id="knopfTuerBernd" onmouseover="plopTuerBernd1()" onmouseout="plopTuerBernd0()" class="spielfeld" type="button" onclick="TuerBernd()"></button>
+                <button id="knopfTuerWC" onmouseover="plopTuerWC1()" onmouseout="plopTuerWC0()" class="spielfeld" type="button" onclick="TuerWC()"></button>
+                <button id="knopfTuerStube" onmouseover="plopTuerStube1()" onmouseout="plopTuerStube0()" class="spielfeld" type="button" onclick="TuerStube()"><img id="Sprechblase_TuerStube"  src="Sprechblasen(Flur)\Tür(Wohnzimer).png"></button>
+                <button id="knopfTuerKueche" onmouseover="plopTuerKueche1()" onmouseout="plopTuerKueche0()" class="spielfeld" type="button" onclick="TuerKueche()"><img id="Sprechblase_TuerKueche"  src="Sprechblasen(Flur)\Küchentür.png"></button>
+                <button id="knopfHausTuer" onmouseover="plopHausTuer1()" onmouseout="plopHausTuer0()" class="spielfeld" type="button" onclick="HausTuer()"><img id="Sprechblase_HausTuer"  src="Sprechblasen(Flur)\Haustür.png"></button>
+                <!-- Ende der Buttons flur-->
+                <!-- Beginn Buttons WC-->
+                <button id="knopfPflanzeWC" onmouseover="plopPflanzeWC1()" onmouseout="plopPflanzeWC0()" class="spielfeld" type="button" onclick="PflanzeWC()"><img id="Sprechblase_WCPflanze"  src="Sprechblasen(Badezimmer)\Pflanze.png"></button>
+                <button id="knopfDusche" onmouseover="plopDusche1()" onmouseout="plopDusche0()" class="spielfeld" type="button" onclick="Dusche()"><img id="Sprechblase_Dusche"  src="Sprechblasen(Badezimmer)\Dusche.png"></button>
+                <button id="knopfToilette" onmouseover="plopToilette1()" onmouseout="plopToilette0()" class="spielfeld" type="button" onclick="Toilette()"><img id="Sprechblase_Toilette"  src="Sprechblasen(Badezimmer)\Toilette.png"></button>
+                <button id="knopfKlopapier" onmouseover="plopKlopapier1()" onmouseout="plopKlopapier0()" class="spielfeld" type="button" onclick="Klopapier()"><img id="Sprechblase_Klopapier"  src="Sprechblasen(Badezimmer)\Klopapierhalter.png"></button>
+                <button id="knopfBernddasBrot3" onmouseover="plopBernddasBrot31()" onmouseout="plopBernddasBrot30()" class="spielfeld" type="button" onclick="BernddasBrot3()"><img id="Sprechblase_WCBrot"  src="Sprechblasen(Badezimmer)\Berndasbrot.png"></button>
+                <button id="knopfHandspiegel" onmouseover="plopHandspiegel1()" onmouseout="plopHandspiegel0()" class="spielfeld" type="button" onclick="Handspiegel()"><img id="Sprechblase_Handspiegel"  src="Sprechblasen(Badezimmer)\KleinerSpiegel.png"></button>
+                <button id="knopfSchrankWC1" onmouseover="plopSchrankWC11()" onmouseout="plopSchrankWC10()" class="spielfeld" type="button" onclick="SchrankWC1()"><img id="Sprechblase_WCSchrank1"  src="Sprechblasen(Badezimmer)\Waschbeckenschrank.png"></button>
+                <button id="knopfSchrankWC2" onmouseover="plopSchrankWC11()" onmouseout="plopSchrankWC10()" class="spielfeld" type="button" onclick="SchrankWC2()"><img id="Sprechblase_WCSchrank2"  src="Sprechblasen(Badezimmer)\Waschbeckenschrank.png"></button>
+                <button id="knopfSpiegelWC1" onmouseover="plopSpiegelWC11()" onmouseout="plopSpiegelWC10()" class="spielfeld" type="button" onclick="SpiegelWC1()"><img id="Sprechblase_WCSpiegel1"  src="Sprechblasen(Badezimmer)\Spiegel.png"></button>
+                <button id="knopfSpiegelWC2" onmouseover="plopSpiegelWC11()" onmouseout="plopSpiegelWC10()" class="spielfeld" type="button" onclick="SpiegelWC2()"><img id="Sprechblase_WCSpiegel2"  src="Sprechblasen(Badezimmer)\Spiegel.png"></button>
+                <button id="knopfWaeschekorb" onmouseover="plopWaeschekorb1()" onmouseout="plopWaeschekorb0()" class="spielfeld" type="button" onclick="Waeschekorb()"><img id="Sprechblase_Waeschekorb"  src="Sprechblasen(Badezimmer)\Wäschekorb.png"></button>
+                <button id="knopfFlurTuer" onmouseover="plopFlurTuer1()" onmouseout="plopFlurTuer0()" class="spielfeld" type="button" onclick="FlurTuer()"></button>
+                <button id="knopfHandtuch" onmouseover="plopHandtuch1()" onmouseout="plopHandtuch0()" class="spielfeld" type="button" onclick="Handtuch()"><img id="Sprechblase_Handtuch"  src="Sprechblasen(Badezimmer)\Handtücher.png"></button>
+                <button id="knopfStock" class="spielfeld" type="button" onclick="StockNehmen()"></button>
+                <!-- ende der Buttons WC-->
+                <!-- beginn der Buttons Kueche-->
+                <button id="knopfsKasten" onmouseover="plopsKasten1()" onmouseout="plopsKasten0()" class="spielfeld" type="button" onclick="sKasten()"><img id="Sprechblase_sKasten"  src="Sprechblasen(Küche)\Schlüsselvitrine.png"></button>
+                <button id="knopfkFlurTuer" onmouseover="plopkFlurTuer1()" onmouseout="plopkFlurTuer0()" class="spielfeld" type="button" onclick="kFlurTuer()"></button>
+                <button id="knopfKuehlschrank" onmouseover="plopKuehlschrank1()" onmouseout="plopKuehlschrank0()" class="spielfeld" type="button" onclick="Kuehlschrank()"><img id="Sprechblase_Kuehlschrank"  src="Sprechblasen(Küche)\Kühlschrank.png"></button>
+                <button id="knopfWasch" onmouseover="plopWasch1()" onmouseout="plopWasch0()" class="spielfeld" type="button" onclick="Wasch()"><img id="Sprechblase_Waschmachine"  src="Sprechblasen(Küche)\Waschmaschine.png"></button>
+                <button id="knopfSpuehl" onmouseover="plopSpuehl1()" onmouseout="plopSpuehl0()" class="spielfeld" type="button" onclick="Spuehl()"><img id="Sprechblase_Spuelmaschine"  src="Sprechblasen(Küche)\Spülmaschine.png"></button>
+                <button id="knopfkSchrank" onmouseover="plopkSchrank1()" onmouseout="plopkSchrank0()" class="spielfeld" type="button" onclick="kSchrank()"><img id="Sprechblase_KuechenSchrank"  src="Sprechblasen(Küche)\Küchenschränke.png"></button>
+                <button id="knopfPfanne" onmouseover="plopPfanne1()" onmouseout="plopPfanne0()" class="spielfeld" type="button" onclick="Pfanne()"><img id="Sprechblase_Pfanne"  src="Sprechblasen(Küche)\Pfanne.png"></button>
+                <button id="knopfKaffee" onmouseover="plopKaffee1()" onmouseout="plopKaffee0()" class="spielfeld" type="button" onclick="Kaffee()"><img id="Sprechblase_Kaffee"  src="Sprechblasen(Küche)\Kaffeemaschine.png"></button>
+                <button id="knopfBoard" onmouseover="plopBoard1()" onmouseout="plopBoard0()" class="spielfeld" type="button" onclick="Board()"><img id="Sprechblase_Board"  src="Sprechblasen(Küche)\Tafel.png"></button>
+                <button id="knopfkTisch" onmouseover="plopkTisch1()" onmouseout="plopkTisch0()" class="spielfeld" type="button" onclick="kTisch()"><img id="Sprechblase_kTisch"  src="Sprechblasen(Küche)\Stuhl.png"></button>
+                <button id="knopfkStuhl" onmouseover="plopkStuhl1()" onmouseout="plopkStuhl0()" class="spielfeld" type="button" onclick="kStuhl()"><img id="Sprechblase_kStuhl"  src="Sprechblasen(Küche)\Stuhl.png"></button>
+                
+                <!-- ende der Buttons Kueche-->
+        </div>
+        <div id=div3 class="divs"></div>
+        <div id=item1 class="divs">
+            <button type="button" class="inventarKnopf" id="buttonItem1" onclick=inventar1()> <img id="bildItem1" src="Slot-Leer.png"> </button>     
+        </div>
+        <div id=item2 class="divs">
+            <button type="button" class="inventarKnopf" id="buttonItem2" onclick=inventar2()><img id="bildItem2" src="Slot-Leer.png"></button>
+        </div>
+        <div id=item3 class="divs">
+            <button type="button" class="inventarKnopf" id="buttonItem3" onclick=inventar3()><img id="bildItem3" src="Slot-Leer.png"></button>
+        </div>
+        <div id=item4 class="divs">
+            <button type="button" class="inventarKnopf" id="buttonItem4" onclick=inventar4()><img id="bildItem4" src="Slot-Leer.png"></button>
+        </div>
+        <div id=item5 class="divs">
+            <button type="button" class="inventarKnopf" id="buttonItem5" onclick=inventar()><img id="bildItem5" src="Slot-Leer.png"></button>
+        </div>
+        <div id=randRechts class="divs"><img id="bildRandRechts" src="saeule_rechts.png" height="765px"></div>
+        <div id=beschreibung></div>
+
+    </Body>
+
+</HMTL>

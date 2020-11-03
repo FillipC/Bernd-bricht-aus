@@ -1,0 +1,1630 @@
+
+
+#Bild{
+background-color: white;
+width: 950px;
+height: 650px;
+float: left;
+}
+
+#startBild, #startknopf, #intro{
+    background-color: black;
+    width: 1200px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    z-index: 10;
+}
+
+#buttons, #bildButtons{
+background-color: yellow;
+width: 150px;
+height: 750px;
+float: left;
+}
+
+#item1, #bildItem1{
+background-color: none;
+width: 190px;
+height: 100px;
+float: left;
+}
+
+#item2, #bildItem2{
+background-color:green;
+width: 190px;
+height: 100px;
+float: left;
+}
+
+#item3, #bildItem3{
+background-color:grey;
+width: 190px;
+height: 100px;
+float: left;
+}
+
+ #item4, #bildItem4{
+background-color:lightblue;
+width: 190px;
+height: 100px;
+float: left;
+}
+
+#item5, #bildItem5{
+background-color:lightpink;
+width: 190px;
+height: 100px;
+float: left;
+}
+
+#randRechts {
+    height: 750px;
+    width: 25px;
+    background-color: none;
+    position: absolute;
+    left: 1109px;
+    top: 1px;
+}
+
+html{
+width: 1200px;
+font-weight: bold;
+}
+
+#bild1{
+z-index: -1;
+
+}
+
+/* Alle einträge mit die Knopf beginnen sind für Gegenstände im Spiel */
+
+#knopfEinleitung{
+    width: 950px;
+    height: 650px;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+
+
+#knopfRadio{
+    height: 50px;
+    width: 65px;
+    top: 424px;
+    left: 260px;
+}
+
+#knopfSekiro{
+    height: 45px;
+    width: 40px;
+    top: 350px;
+    left: 500px;
+}
+
+#knopfSchublade{
+    height: 30px;
+    width: 60px;
+    top: 400px;
+    left: 490px;
+}
+
+#knopfUrkunde{
+    height: 55px;
+    width: 32px;
+    top: 355px;
+    left: 713px;
+}
+
+#knopfFussball{
+    height: 50px;
+    width: 75px;
+    top: 298px;
+    left: 697px;
+}
+
+#knopfTruhe{
+    height: 50px;
+    width: 75px;
+    top: 418px;
+    left: 697px;
+}
+
+#knopfSchreibtisch{
+    height: 88px;
+    width: 70px;
+    top: 460px;
+    left: 344px;
+}
+
+#knopfWandbild{
+    height: 200px;
+    width: 90px;
+    top: 200px;
+    left: 580px;
+}
+
+#knopfPflanze{
+    height: 140px;
+    width: 45px;
+    top: 335px;
+    left: 425px;
+}
+
+#knopfHocker{
+    height: 70px;
+    width: 70px;
+    top: 512px;
+    left: 495px;
+}
+
+#knopfSteckdose{
+    height: 55px;
+    width: 70px;
+    top: 550px;
+    left: 180px;
+}
+
+#knopfBdasBrot1{
+    height: 75px;
+    width: 60px;
+    top: 535px;
+    left: 265px;
+}
+
+#knopfKleiderhaken{
+    height: 150px;
+    width: 30px;
+    top: 300px;
+    left: 925px;
+}
+
+#knopfMuelleimer{
+    height: 80px;
+    width: 80px;
+    top: 397px;
+    left: 580px;
+}
+
+#knopfBett{
+    height: 200px;
+    width: 288px;
+    top: 456px;
+    left: 815px;
+}
+
+#knopfTuer{
+    height: 235px;
+    width: 80px;
+    top: 220px;
+    left: 815px;
+}
+
+#knopfShirt1{
+    height: 80px;
+    width: 80px;
+    top: 560px;
+    left: 725px;
+}
+
+#knopfShirt2{
+    height: 65px;
+    width: 65px;
+    top: 582px;
+    left: 495px;
+}
+
+#knopfShirt3{
+    height: 45px;
+    width: 95px;
+    top: 477px;
+    left: 600px;
+}
+
+#knopfBdasBrot2{
+    height: 40px;
+    width: 40px;
+    top: 250px;
+    left: 720px;
+}
+
+#knopfUhr{
+    height: 80px;
+    width: 60px;
+    top: 230px;
+    left: 490px;
+}
+
+#knopfBenutzen{
+    height: 100px;
+    width: 100px;
+    top: 60px;
+    left: 35px;
+
+}
+
+#knopfLauter{
+    height: 70px;
+    width: 50px;
+    top: 640px;
+    left: 85px
+}
+
+#knopfLeiser{
+    height: 70px;
+    width: 50px;
+    top: 640px;
+    left: 35px;
+}
+
+#knopfNehmen{
+    height: 100px;
+    width: 100px;
+    top: 170px;
+    left: 35px;
+}
+
+#knopfFenster{
+    height: 180px;
+    width: 130px;
+    top: 210px;
+    left: 230px;
+}
+
+#knopfSchluessel2{
+    height: 0px;
+    width: 0px;
+    top: 440px;
+    left: 335px;
+}
+
+/* Knöpfe im Flur */
+
+#knopfKlavier{
+    height: 0px;
+    width: 0px;
+    top: 400px;
+    left: 320px;
+}
+
+#knopfBlumeFlur{
+    height: 0px;
+    width: 0px;
+    top: 320px;
+    left: 475px;
+}
+
+#knopfKleiderhakenFlur{
+    height: 0px;
+    width: 0px;
+    top: 320px;
+    left: 735px;
+}
+
+#knopfVitrine{
+    height: 0px;
+    width: 0px;
+    top: 320px;
+    left: 850px;
+}
+
+#knopfTuerBernd{
+    height: 0px;
+    width: 0px;
+    top: 245px;
+    left: 200px;
+}
+
+#knopfTuerWC{
+    height: 0px;
+    width: 0px;
+    top: 240px;
+    left: 925px;
+}
+
+#knopfTuerStube{
+    height: 0px;
+    width: 0px;
+    top: 280px;
+    left: 420px;
+}
+
+#knopfTuerKueche{
+    height: 0px;
+    width: 0px;
+    top: 290px;
+    left: 795px;
+}
+
+#knopfHausTuer{
+    height: 0px;
+    width: 0px;
+    top: 300px;
+    left: 540px;
+}
+
+/* ende der Knöpfe um Flur */
+/* beginn der Knöpfe im WC */
+#knopfPflanzeWC{
+    height: 0px;
+    width: 0px;
+    top: 482px;
+    left: 171px;
+}
+
+#knopfDusche{
+    height: 0px;
+    width: 0px;
+    top: 342px;
+    left: 242px;
+}
+
+#knopfToilette{
+    height: 0px;
+    width: 0px;
+    top: 431px;
+    left: 425px;
+}
+
+#knopfKlopapier{
+    height: 0px;
+    width: 0px;
+    top: 492px;
+    left: 384px;
+}
+
+#knopfStock{
+    height: 0px;
+    width: 0px;
+    top: 532px;
+    left: 386px;
+}
+
+#knopfBernddasBrot3{
+    height: 0px;
+    width: 0px;
+    top: 458px;
+    left: 508px;
+}
+
+#knopfHandspiegel{
+    height: 0px;
+    width: 0px;
+    top: 396px;
+    left: 536px;
+}
+
+#knopfSchrankWC1{
+    height: 0px;
+    width: 0px;
+    top: 457px;
+    left: 601px;
+}
+
+#knopfSchrankWC2{
+    height: 0px;
+    width: 0px;
+    top: 457px;
+    left: 713px;
+}
+
+#knopfSpiegelWC1{
+    height: 0px;
+    width: 0px;
+    top: 322px;
+    left: 601px;
+}
+
+#knopfSpiegelWC2{
+    height: 0px;
+    width: 0px;
+    top: 322px;
+    left: 720px;
+}
+
+#knopfWaeschekorb{
+    height: 0px;
+    width: 0px;
+    top: 470px;
+    left: 863px;
+}
+
+#knopfFlurTuer{
+    height: 0px;
+    width: 0px;
+    top: 322px;
+    left: 925px;
+}
+
+#knopfHandtuch{
+    height: 0px;
+    width: 0px;
+    top: 295px;
+    left: 1000px;
+}
+/* ende der Knöpfe im WC */
+/* anfang der Knöpfe in der Küche */
+
+#knopfsKasten{
+    height: 0px;
+    width: 0px;
+    top: 426px;
+    left: 171px;
+}
+
+#knopfkFlurTuer{
+    height: 0px;
+    width: 0px;
+    top: 318px;
+    left: 262px;
+}
+
+#knopfKuehlschrank{
+    height: 0px;
+    width: 0px;
+    top: 306px;
+    left: 404px;
+}
+
+#knopfWasch{
+    height: 0px;
+    width: 0px;
+    top: 421px;
+    left: 490px;
+}
+
+#knopfSpuehl{
+    height: 0px;
+    width: 0px;
+    top: 439px;
+    left: 568px;
+}
+
+#knopfkSchrank{
+    height: 0px;
+    width: 0px;
+    top: 421px;
+    left: 648px;
+}
+
+#knopfPfanne{
+    height: 0px;
+    width: 0px;
+    top: 392px;
+    left: 568px;
+}
+
+#knopfKaffee{
+    height: 0px;
+    width: 0px;
+    top: 291px;
+    left: 795px;
+}
+
+#knopfBoard{
+    height: 0px;
+    width: 0px;
+    top: 269px;
+    left: 910px;
+}
+
+#knopfkTisch{
+    height: 0px;
+    width: 0px;
+    top: 491px;
+    left: 732px;
+}
+
+#knopfkStuhl{
+    height: 0px;
+    width: 0px;
+    top: 536px;
+    left: 593px;
+}
+/* alle Dinge die mit BildIcon anfangen sind für die kleinen Texte Oben Rechts */
+/*ende der Knöpfe in der Küche*/
+#beschreibung{
+    height: 20px;
+    width: 80px;
+    background: none;
+    position: absolute;
+    left: 970px;
+    top: 15px;
+    display: none;
+}
+
+#bildIconSchreibtisch{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconBett{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconSchublade{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconBild{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconSekiro{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconFussball{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconShirt{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconGardine{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconTruhe{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconHocker{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconTuer{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconUhr{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconKleiderhaken{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconUrkunde{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconPapa{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconPapierkorb{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconPflanze{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconPullover{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconRadio{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+#bildIconSchluessel{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+/* Icons fuer den Flur */
+
+#bildIconKlavier{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconBlumeFlur{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconKleiderhakenFlur{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconVitrine{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconTuerBernd{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconTuerWC{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconTuerStube{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconTuerKueche{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconHausTuer{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+/* ende der Icons im Flur */
+
+/*beginn der Icons im WC */
+
+#bildIconPflanzeWC{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconDusche{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconToilette{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconKlopapier{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconBernddasBrot3{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconHandspiegel{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconSchrankWC1{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconSchrankWC2{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconSpiegelWC1{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconSpiegelWC2{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconWaeschekorb{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconFlurTuer{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconHandtuch{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+/* ende der Icons im WC */
+/* anfang Icons Küche */
+#bildIconsKasten{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconkFlurTuer{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconKuehlschrank{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconWasch{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconSpuehl{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconkSchrank{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconPfanne{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconKaffee{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconBoard{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconkTisch{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+#bildIconkStuhl{
+    background: none;
+    position: absolute;
+    left: 960px;
+    top: 15px;
+    display: none;
+    z-index: 1;
+}
+
+/* ende Icons Küche */
+/*Sprechblasen Schlafzimmer*/
+
+
+#SprechblaseNope_Tisch{
+    position: absolute;
+    top: 440px;
+    left: 188px;
+    display: none;
+}
+/*  #SprechblaseNope_TischSound{
+    display: none;
+    }
+*/
+
+#SprechblaseNope_Bett{
+    position: absolute;
+    top: 420px;
+    left: 568px;
+    display: none;
+}
+/*  #SprechblaseNope_BettSound{
+    display: none;
+    }
+*/
+
+#SprechblaseNope_Tuer{
+    position: absolute;
+    top: 328px;
+    left: 560px;
+    display: none;
+}
+/*  #SprechblaseNope_TuerSound{
+    display: none;
+    }
+*/
+
+#SprechblaseNope_AufTisch{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    display: none;
+}
+/*  #SprechblaseNope_AufTischSound{
+    display: none;
+    }
+*/
+
+#SprechblaseNope_Bild{
+    position: absolute;
+    top: 330px;
+    left: 410px;
+    display: none;
+}
+/*  #SprechblaseNope_BildSound{
+    display: none;
+    }
+*/
+
+#SprechblaseNope_Pflanze{
+    position: absolute;
+    top: 329px;
+    left: 285px;
+    display: none;
+}
+/*  #SprechblaseNope_PflanzeSound{
+    display: none;
+    }
+*/
+
+#Sprechblase_SchreibtischSchluessel1{
+    position: absolute;
+    top: -30px;
+    left: 55px;
+    display: none;
+}
+/*  #SprechblaseSchreibtischSchluessel1Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Gardine{
+    position: absolute;
+    top: 210px;
+    left: 170px;
+    display: none;
+}
+/*  #Sprechblase1_GardineSound{
+    display: none;
+    }
+*/
+
+#Sprechblase2_Gardinenehmen1{
+    position: absolute;
+    top: 75px;
+    left: 155px;
+    display: none;
+}
+/*  #Sprechblase2_Gardinenehmen1Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase2_Gardinenehmen2{
+    position: absolute;
+    top: 75px;
+    left: 155px;
+    display: none;
+}
+/*  #Sprechblase2_Gardinenehmen2Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase2_Schluessel2{
+    position: absolute;
+    top: -140px;
+    left: 65px;
+    display: none;
+}
+/*  #Sprechblase2_Schluessel2Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Tuer{
+    position: absolute;
+    top: 120px;
+    left: -30px;
+    display: none;
+}
+/*  #Sprechblase1_TuerSound{
+    display: none;
+    }
+*/
+
+#Sprechblase2_Tuer{
+    position: absolute;
+    top: 108px;
+    left: -250px;
+    display: none;
+}
+/*  #Sprechblase2_TuerSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Schublade{
+    position: absolute;
+    top: -70px;
+    left: -203px;
+    display: none;
+}
+/*  #Sprechblase1_SchubladeSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Schreibtisch{
+    position: absolute;
+    top: -30px;
+    left: -150px;
+    display: none;
+}
+/*  #Sprechblase1_SchreibtischSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Uhr{
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    display: none;
+}
+/*  #Sprechblase1_UhrSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Urkunde{
+    position: absolute;
+    top: -25px;
+    left: -150px;
+    display: none;
+}
+/*  #Sprechblase1_UrkundeSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Truhe{
+    position: absolute;
+    top: -112px;
+    left: -175px;
+    display: none;
+}
+/*  #Sprechblase1_TruheSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Pflanze{
+    position: absolute;
+    top: -10px;
+    left: 68px;
+    display: none;
+}
+/*  #Sprechblase1_PflanzeSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Papierkorb{
+    position: absolute;
+    top: -60px;
+    left: -170px;
+    display: none;
+}
+/*  #Sprechblase1_PapierkorbSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Kleiderhaken{
+    position: absolute;
+    top: 120px;
+    left: -360px;
+    display: none;
+}
+/*  #Sprechblase1_KleiderhakenSound{
+    display: none;
+    }
+*/
+
+
+#Sprechblase1_Shirt1{
+    position: absolute;
+    top: -155px;
+    left: 50px;
+    display: none;
+}
+/*  #Sprechblase1_Shirt1Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Shirt2{
+    position: absolute;
+    top: -145px;
+    left: -90px;
+    display: none;
+}
+/*  #Sprechblase1_Shirt2Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Shirt3{
+    position: absolute;
+    top: -145px;
+    left: 20px;
+    display: none;
+}
+/*  #Sprechblase1_Shirt3Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Hocker{
+    position: absolute;
+    top: -80px;
+    left: -90px;
+    display: none;
+}
+/*  #Sprechblase1_HockerSound{
+    display: none;
+    }
+*/
+
+#Sprechblase2_Hockerbenutzen{
+    position: absolute;
+    top: -80px;
+    left: -90px;
+    display: none;
+}
+/*  #Sprechblase2_HockerbenutzenSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Bernddasbrot1{
+    position: absolute;
+    top: -105px;
+    left: -70px;
+    display: none;
+}
+/*  #Sprechblase1_Bernddasbrot1Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Bernddasbrot2{
+    position: absolute;
+    top: 80px;
+    left: -160px;
+    display: none;
+}
+/*  #Sprechblase1_Bernddasbrot2Sound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Bild{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    display: none;
+}
+/*  #Sprechblase1_BildSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Sekiro{
+    position: absolute;
+    top: -20px;
+    left: 35px;
+    display: none;
+}
+/*  #Sprechblase1_SekiroSound{
+    display: none;
+    }
+*/
+
+#Sprechblase1_Bett{
+    position: absolute;
+    top: -50px;
+    left: -240px;
+    display: none;
+}
+/*  #Sprechblase1_BettSound{
+    display: none;
+    }
+*/
+
+#SprechblaseFussball{
+    position: absolute;
+    top: 8px;
+    left: -175px;
+    display: none;
+}
+
+#SprechblaseFussballSound{
+    display: none;
+}
+/*Ende Sprechblasen Schlafzimmer*/
+
+/*Sprechblasen Flur*/
+
+#Sprechblase_BlumeFlur{
+    position: absolute;
+    top: -45px;
+    left: 44px;
+    display: none;
+}
+
+#Sprechblase_Klavier{
+    position: absolute;
+    top: -112px;
+    left: 123px;
+    display: none;
+}
+
+#Sprechblase_KleiderhakenFlur{
+    position: absolute;
+    top: -50px;
+    left: -188px;
+    display: none;
+}
+
+
+#Sprechblase_Vitrine{
+    position: absolute;
+    top: 65px;
+    left: -180px;
+    display: none;
+}
+
+#Sprechblase_TuerStube{
+    position: absolute;
+    top: -6px;
+    left: 95px;
+    display: none;
+}
+
+#Sprechblase_TuerKueche{
+    position: absolute;
+    top: -26px;
+    left: -243px;
+    display: none;
+}
+
+#Sprechblase_HausTuer{
+    position: absolute;
+    top: -44px;
+    left: 110px;
+    display: none;
+}
+
+/*Ende Sprechblasen Flur*/
+
+/*Sprechblasen WC*/
+
+#Sprechblase_WCPflanze{
+    position: absolute;
+    top: -60px;
+    left: 280px;
+    display: none;
+}
+
+#Sprechblase_Dusche{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    display: none;
+}
+
+#Sprechblase_Toilette{
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    display: none;
+}
+
+#Sprechblase_Klopapier{
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    display: none;
+}
+
+#Sprechblase_WCBrot{
+    position: absolute;
+    top: -70px;
+    left: -300px;
+    display: none;
+}
+
+#Sprechblase_Handspiegel{
+    position: absolute;
+    top: -12px;
+    left: -325px;
+    display: none;
+}
+
+#Sprechblase_Waeschekorb{
+    position: absolute;
+    top: -74px;
+    left: -198px;
+    display: none;
+}
+
+#Sprechblase_Handtuch{
+    position: absolute;
+    top: 109px;
+    left: -337px;
+    display: none;
+}
+
+#Sprechblase_WCSpiegel1{
+    position: absolute;
+    top: 52px;
+    left: -159px;
+    display: none;
+}
+
+#Sprechblase_WCSpiegel2{
+    position: absolute;
+    top: 44px;
+    left: -275px;
+    display: none;
+}
+
+#Sprechblase_WCSchrank1{
+    position: absolute;
+    top: -65px;
+    left: -165px;
+    display: none;
+}
+
+#Sprechblase_WCSchrank2{
+    position: absolute;
+    top: -77px;
+    left: -265px;
+    display: none;
+}
+
+/*Ende Sprechblasen WC*/
+
+/*Sprechblasen Kueche*/
+
+#Sprechblase_sKasten{
+    position: absolute;
+    top: 12px;
+    left: 208px;
+    display: none;
+}
+
+#Sprechblase_Kuehlschrank{
+    position: absolute;
+    top: 78px;
+    left: 139px;
+    display: none;
+}
+
+#Sprechblase_Waschmachine{
+    position: absolute;
+    top: -39px;
+    left: 51px;
+    display: none;
+}
+
+#Sprechblase_Spuelmaschine{
+    position: absolute;
+    top: -63px;
+    left: 100px;
+    display: none;
+}
+
+#Sprechblase_KuechenSchrank{
+    position: absolute;
+    top: 87px;
+    left: -124px;
+    display: none;
+}
+
+#Sprechblase_Pfanne{
+    position: absolute;
+    top: -7px;
+    left: 106px;
+    display: none;
+}
+
+#Sprechblase_Kaffee{
+    position: absolute;
+    top: 89px;
+    left: -117px;
+    display: none;
+}
+
+#Sprechblase_Board{
+    position: absolute;
+    top: 190px;
+    left: -428px;
+    display: none;
+}
+
+#Sprechblase_kTisch{
+    position: absolute;
+    top: -23px;
+    left: -252px;
+    display: none;
+}
+
+#Sprechblase_kStuhl{
+    position: absolute;
+    top: -67px;
+    left: -117px;
+    display: none;
+}
+
+#Sprechblase_Ende{
+    position: absolute;
+    top: 357px;
+    left: 597px;
+    display: none;
+}
+
+
+/*Ende Sprechblasen Kueche*/
+.spielfeld, #song{
+    border: none;
+    padding: 0;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.inventarKnopf{
+
+    width: 190px;
+    height: 100px;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.buttonsOptionen{
+    border: none;
+    padding: 0;
+    background: none;
+    width: 150px;
+    height: 750px;
+}
+
+#kidposition{
+    height:95px; /* old 85*/
+    width:55px;  /* old 49*/
+    position:absolute;
+    left:360px;
+    top:520px;
+    transition:  3s linear ; /* die bewegung dauert 3 sekunden */
+    /* das wird ab und zu in javascript kurzeitug geändert*/
+
+}
+
+/*
+#div3{
+background-color: purple;
+width: 150px;
+height: 100px;
+float: left;
+}
+*/
