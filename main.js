@@ -4812,18 +4812,18 @@ function MoveTo(Ziel){
         if(position=="Bett"){
             //Das Bild welches für den gang benutzt wird
             //Reine Gestaltwahl
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";            
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";            
         }      
         if(position=="Tuer"){
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         }  
         if(position=="Muelleimer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
         }
         if(position=="Schublade")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
         } 
         //Die Position wird auf die Neue Position geändert
         setTimeout(function(){
@@ -4835,19 +4835,19 @@ function MoveTo(Ziel){
         MoveToBett();
         if(position=="Schreibtisch")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="Tuer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
         } 
         if(position=="Muelleimer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="Schublade")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         setTimeout(function(){
         position="Bett";
@@ -4858,19 +4858,19 @@ function MoveTo(Ziel){
         MoveToTuer();
         if(position=="Schreibtisch")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="Bett")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
         } 
         if(position=="Muelleimer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="Schublade")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         setTimeout(function(){
         position="Tuer";
@@ -4882,19 +4882,19 @@ function MoveTo(Ziel){
         MoveToMuelleimer();
         if(position=="Schreibtisch")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
         }
         if(position=="Bett")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
         } 
         if(position=="Tuer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="Schublade")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
 
         setTimeout(function(){
@@ -4906,19 +4906,19 @@ function MoveTo(Ziel){
         MoveToSchublade();
         if(position=="Schreibtisch")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
         }
         if(position=="Bett")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="Tuer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="Muelleimer")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         
         setTimeout(function(){
@@ -4968,7 +4968,7 @@ var stehenbleibencancel;
 //Funktion welche dem Kind nach dem Laufen wieder in das Ausgangsbild bringt
 function StehenBleiben(){
     stehenbleibencancel= setTimeout(function() {
-                            document.getElementById("kidposition").src="kiddo_bilder/kid_front.png";
+                            document.getElementById("kidposition").src="kid_bilder/kid_front.png";
                             }, 3000);
 }
 //Function welche die StehenBleiben function Canceld
@@ -4985,7 +4985,7 @@ function MoveToFenster(){
         MoveTo("Schreibtisch");
         setTimeout(function(){
             document.getElementById("kidposition").style.transitionDuration="1s";
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";
             
 
             document.getElementById("kidposition").style.left="400px";
@@ -4993,7 +4993,7 @@ function MoveToFenster(){
         },3000);
         
         setTimeout(function(){
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";
             document.getElementById("kidposition").style.left="345px";
             document.getElementById("kidposition").style.top ="360px";
         },4000);
@@ -5001,28 +5001,28 @@ function MoveToFenster(){
       
 
         setTimeout(function() {
-            document.getElementById("kidposition").src="kiddo_bilder/kid_front.png";
+            document.getElementById("kidposition").src="kid_bilder/kid_front.png";
             document.getElementById("kidposition").style.transitionDuration="3s";
             }, 5000);
         
 }else{
     if(position!="aufSchreibtisch"){
         document.getElementById("kidposition").style.transitionDuration="1s";
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";
         
 
         document.getElementById("kidposition").style.left="400px";
         document.getElementById("kidposition").style.top ="410px";
         
         setTimeout(function(){
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";
             document.getElementById("kidposition").style.left="345px";
             document.getElementById("kidposition").style.top ="360px";
             
         }, 1000);
 
         setTimeout(function(){
-            document.getElementById("kidposition").src="kiddo_bilder/kid_front.png";
+            document.getElementById("kidposition").src="kid_bilder/kid_front.png";
             document.getElementById("kidposition").style.transitionDuration="3s";
     
             
@@ -5037,12 +5037,12 @@ function MoveToFenster(){
 function MoveToRunter(){
     document.getElementById("kidposition").style.transitionDuration="1s";
     
-    document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";
+    document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";
     document.getElementById("kidposition").style.left="400px";
     document.getElementById("kidposition").style.top ="410px";
 
     setTimeout(function(){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";
         document.getElementById("kidposition").style.left=positionAX;
         document.getElementById("kidposition").style.top =positionAY;
 
@@ -5091,20 +5091,20 @@ function MoveToInFlur(Ziel){
         if(Ziel=="TuerBernd"){
             MoveToTuerBernd();
             if(position=="TuerWC"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";            
             }      
             if(position=="TuerKueche"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
             }  
             if(position=="TuerWohnzimmer")
             {
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
             }
             if(position=="TuerHaus"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";            
             }   
             if(position=="Klavier"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";            
             } 
             setTimeout(function(){
             position="TuerBernd";
@@ -5115,20 +5115,20 @@ function MoveToInFlur(Ziel){
         if(Ziel=="TuerWC"){
             MoveToTuerWC();
             if(position=="TuerBernd"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             }      
             if(position=="TuerKueche"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
             }  
             if(position=="TuerWohnzimmer")
             {
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
             }
             if(position=="TuerHaus"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";            
             }  
             if(position=="Klavier"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             } 
             setTimeout(function(){
             position="TuerWC";
@@ -5138,20 +5138,20 @@ function MoveToInFlur(Ziel){
         if(Ziel=="TuerKueche"){
             MoveToTuerKueche();
             if(position=="TuerBernd"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             }      
             if(position=="TuerWC"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
             }  
             if(position=="TuerWohnzimmer")
             {
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
             }
             if(position=="TuerHaus"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             }
             if(position=="Klavier"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             }   
             setTimeout(function(){
             position="TuerKueche";
@@ -5161,20 +5161,20 @@ function MoveToInFlur(Ziel){
         if(Ziel=="TuerWohnzimmer"){
             MoveToTuerWohnzimmer();
             if(position=="TuerBernd"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";            
             }      
             if(position=="TuerKueche"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
             }  
             if(position=="TuerWC")
             {
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
             }
             if(position=="TuerHaus"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";            
             }  
             if(position=="Klavier"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";            
             } 
             setTimeout(function(){
             position="TuerWohnzimmer";
@@ -5183,20 +5183,20 @@ function MoveToInFlur(Ziel){
         if(Ziel=="TuerHaus"){
             MoveToTuerHaus();
             if(position=="TuerBernd"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";            
             }      
             if(position=="TuerKueche"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
             }  
             if(position=="TuerWC")
             {
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
             }
             if(position=="TuerWohnzimmer"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             }
             if(position=="Klavier"){
-                document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";            
+                document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";            
             } 
             setTimeout(function(){
             position="TuerHaus";
@@ -5240,25 +5240,25 @@ function MoveToKlavier(){
 
 
     if(position=="TuerBernd"){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";            
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";            
     }      
     if(position=="TuerKueche"){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
     }  
     if(position=="TuerWC")
     {
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
     }
     if(position=="TuerWohnzimmer"){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";            
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";            
     }  
     if(position=="TuerHaus"){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";            
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";            
     }  
     
     setTimeout(function(){
         position="Klavier";
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_piano.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_piano.gif";
         startKlavier();  
         document.getElementById("kidposition").style.transitionDuration="3s";
         },2000);
@@ -5332,15 +5332,15 @@ function MoveToImBad(Ziel){
         MoveToTuerImBad();
         if(position=="Dusche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="SchrankWC")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="Toilette")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         setTimeout(function(){
         position="TuerImBad";
@@ -5350,15 +5350,15 @@ function MoveToImBad(Ziel){
         MoveToDusche();
         if(position=="TuerImBad")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         }
         if(position=="SchrankWC")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="Toilette")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         setTimeout(function(){
         position="Dusche";
@@ -5368,15 +5368,15 @@ function MoveToImBad(Ziel){
         MoveToSchrankWC();
         if(position=="TuerImBad")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         }
         if(position=="Dusche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="Toilette")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         setTimeout(function(){
         position="SchrankWC";
@@ -5386,15 +5386,15 @@ function MoveToImBad(Ziel){
         MoveToToilette();
         if(position=="TuerImBad")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         }
         if(position=="Dusche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="SchrankWC")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         setTimeout(function(){
         position="Toilette";
@@ -5453,15 +5453,15 @@ function MoveToInKueche(Ziel){
         MoveToTuerInKueche();
         if(position=="Kuehlschrank")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         }
         if(position=="Spuelmaschine")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="TischInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         setTimeout(function(){
         position="TuerInKueche";
@@ -5471,15 +5471,15 @@ function MoveToInKueche(Ziel){
         MoveToKuehlschrank();
         if(position=="TuerInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="Spuelmaschine")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         if(position=="TischInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";   
         } 
         setTimeout(function(){
         position="Kuehlschrank";
@@ -5489,15 +5489,15 @@ function MoveToInKueche(Ziel){
         MoveToSpuelmaschine();
         if(position=="TuerInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="Kuehlschrank")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="TischInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";   
         } 
         setTimeout(function(){
         position="Spuelmaschine";
@@ -5507,15 +5507,15 @@ function MoveToInKueche(Ziel){
         MoveToTischinKueche();
         if(position=="TuerInKueche")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         }
         if(position=="Kuehlschrank")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";   
         } 
         if(position=="Spuelmaschine")
         {
-            document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_front_walking.gif";   
+            document.getElementById("kidposition").src="kid_bilder/gifs/kid_front_walking.gif";   
         } 
         setTimeout(function(){
         position="TischInKueche";
@@ -5539,33 +5539,33 @@ function transitionKuecheZuFlur(){
 // Speziall animation fürs Nehmen der Pfanne 
 //musste in 2 teile aufgeteilt werden.
 function PfanneNehmenAnimation1(){
-    document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_left_walking.gif";
+    document.getElementById("kidposition").src="kid_bilder/gifs/kid_left_walking.gif";
     document.getElementById("kidposition").style.transitionDuration="0.5s";
     document.getElementById("kidposition").style.left="592px";
     setTimeout(function(){
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";
         document.getElementById("kidposition").style.transitionDuration="1.5s";
         document.getElementById("kidposition").style.top="410px";
     },500);
     setTimeout(function(){
-        document.getElementById("kidposition").src="kiddo_bilder/kid_back.png";
+        document.getElementById("kidposition").src="kid_bilder/kid_back.png";
     },2000);
 }
 
 function PfanneNehmenAnimation2(){
     setTimeout(function(){
         
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_back_walking.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_back_walking.gif";
         document.getElementById("kidposition").style.top="470px";
     },2500);
     setTimeout(function(){
         document.getElementById("kidposition").style.transitionDuration="0.5s";
-        document.getElementById("kidposition").src="kiddo_bilder/gifs/kid_right_walking.gif";
+        document.getElementById("kidposition").src="kid_bilder/gifs/kid_right_walking.gif";
         document.getElementById("kidposition").style.left="620px";
     },4000);
     setTimeout(function(){
         document.getElementById("kidposition").style.transitionDuration="3s";
-        document.getElementById("kidposition").src="kiddo_bilder/kid_front.png";
+        document.getElementById("kidposition").src="kid_bilder/kid_front.png";
     },4500);
 }
 ////////////Ende Animationen Küche//////////////
